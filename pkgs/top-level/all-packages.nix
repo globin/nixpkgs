@@ -1968,6 +1968,8 @@ let
 
   lxc = callPackage ../os-specific/linux/lxc { };
 
+  lxd = callPackage ../applications/virtualization/lxd { };
+
   lzip = callPackage ../tools/compression/lzip { };
 
   lzma = xz;

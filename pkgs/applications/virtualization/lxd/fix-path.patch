@@ -1,0 +1,11 @@
+diff --git a/scripts/lxd-images b/scripts/lxd-images
+index f0353b3..7bcf192 100755
+--- a/scripts/lxd-images
++++ b/scripts/lxd-images
+@@ -1,4 +1,4 @@
+-#!/usr/bin/python3
++#!/usr/bin/env python3
+ # Let's stick to core python3 modules
+ import argparse
+ import gettext
+
