@@ -2116,6 +2116,8 @@ let
     wrapPython = python3Packages.wrapPython;
   };
 
+  lxd = callPackage ../applications/virtualization/lxd { };
+
   lzip = callPackage ../tools/compression/lzip { };
 
   lzma = xz;
